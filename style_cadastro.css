@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f2f2f2;
+    font-family: arial;
+}
+.container .form-cadastro{
+    width: 70%;
+     background: linear-gradient( rgb(255, 89, 0), rgb(223, 192, 17));
+    padding-bottom: 0 10px;
+    
+}
+
+.form-cadastro form{
+    margin: 20px;
+}
+
+button{
+    width: 300px;
+    padding: 10px;
+    margin: 60px;
+    outline: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    margin: 15px 5px;
+    border: solid 1px  #ee410c;
+
+}
+
+select{
+    width: 90px;
+    height: 30px;
+    margin: 10px;
+    border: solid 1px  #ee410c;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+label{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+   
+}
+
+fieldset{
+    border: none;
+}
+
+h2{
+    margin: 15px;
+    text-transform: uppercase;
+    text-align:left;
+    color: white;
+   
+}
+
+img{
+    float: right;
+    max-width: 12%;
+    padding: 12px;
+    opacity: 0.8;
+}
+
+p{
+    padding: 0 50px;
+    margin: 10px;
+    text-indent: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.btn-voltar{
+    background-color: green;
+}
+.row{
+    margin: 0 15px;
+
+}
+
+.row-cpf{
+    margin: 0 35px;
+}
